@@ -1,0 +1,90 @@
+Ex 01
+Algoritmo de soma de dois números: 
+um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números.
+
+1: Leia A
+2: Leia B
+3: resultado = A+B
+4: escreva resultado
+
+Ex 02
+Algoritmo de conversão de temperatura:
+um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+
+1: Leia temperatura
+2: Leia unidade
+3: se unidade = C
+4: então resultado = (temperatura * 1.8) + 32
+5: senão 
+6: então temperatura  = (temperatura - 32) / 1.8
+7: escreva resultado
+
+Ex 03
+Algoritmo de cálculo de média:
+um algoritmo que calcula a média de uma lista de números.
+
+Leia lista de números
+1: var soma = 0
+2: Para cada número da lista faça:
+3: adicione número a var soma
+4: calcule a média dividindo a variável soma pelo tamanho da lista
+5: exiba o resultado da média
+
+Ex 04
+Algoritmo de cálculo de fatorial:
+um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
+
+Leia A
+var fatorial = 1
+Para cada número antes a A
+multiplique número a var fatorial
+escreva o resultado da multiplicação
+
+Ex5
+Algoritmo de busca linear:
+um algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo.
+
+Leia lista
+Leia A
+verifique cada elemento da lista
+se encontrar A 
+então pare
+senão continue verificando cada elemento da lista
+fim
+
+Ex 06
+Algoritmo de cálculo de potência: 
+um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
+
+!MANEIRA FÁCIL!
+Leia A 
+Leia B
+resultado = (a**b)
+escreva resultado
+
+!MANEIRA LEGAL!
+Leia A
+Leia potência
+SE potência igual a 0 
+entao escreva 1
+senao enquanto potencia >1
+resultado = A * A
+potencia = potencia -1
+fim-senao
+
+Ex 07
+Algoritmo de verificação de número primo: 
+um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
+
+Leia A
+para todos os números >2 e <A-1
+
+
+Ex 08
+Algoritmo de cálculo de área de um triângulo:
+um algoritmo que calcula a área de um triângulo com base na base e altura fornecidas.
+
+Leia triangulo
+Leia B
+Leia A
+
