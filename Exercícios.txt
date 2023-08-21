@@ -52,6 +52,17 @@ então pare
 senão continue verificando cada elemento da lista
 fim
 
+Ler lista
+Ler X
+para cada elemeno da lista faça:
+se elemento é igual a X, então:
+escreva Encontrei X
+fim
+fim-se
+fim-para
+escreva Não encontrei
+fim
+
 Ex 06
 Algoritmo de cálculo de potência: 
 um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
@@ -76,9 +87,14 @@ Ex 07
 Algoritmo de verificação de número primo: 
 um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
 
-Leia A
-para todos os números >2 e <A-1
-
+Leia x
+para cada numero entre 2 e x-1, faça:
+se o resto da divisão entre x e número for 0, então:
+escreva X não é pimo
+fim
+fim-se
+escreva X é primo
+fim
 
 Ex 08
 Algoritmo de cálculo de área de um triângulo:
