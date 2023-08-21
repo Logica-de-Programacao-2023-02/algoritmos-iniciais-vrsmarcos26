@@ -104,3 +104,30 @@ Leia triangulo
 Leia B
 Leia A
 
+EX 09
+Algoritmo de cálculo de juros compostos: 
+um algoritmo que calcula o montante de dinheiro após um período de tempo com juros compostos.
+
+ler capital
+ler taxa_juros
+ler tempo
+x = 1+ taxa_juros
+para cada número entre 1 e tempo, faça:
+x = x * x
+M = capital * X
+esceva M
+
+EX 10
+Algoritmo de cálculo de média ponderada: 
+um algoritmo que calcula a média ponderada de uma lista de números com base nos pesos fornecidos.
+
+ler lista_valores
+ler lista_pesos
+var soma = 0
+para cada numero da lista_valores, faça:
+soma = soma + (numero * peso_respectivo)
+var soma_peso = 0 
+para cada numero da lista_peso, faça:
+soma_peso = soma_peso + numero 
+media = soma / soma_peso
+escreva media
